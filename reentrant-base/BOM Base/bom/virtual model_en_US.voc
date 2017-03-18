@@ -1,0 +1,6 @@
+# Vocabulary Properties
+uuid = b2d8e91a-3ceb-4ece-9b8d-aa9160a1e24f
+
+# demo.DateTimeHelper
+demo.DateTimeHelper#concept.label = date time helper
+demo.DateTimeHelper.getNumberOfYearsFromDate(java.util.Date)#phrase.navigation = the number of years from {0}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" isADecisionService="true" migrationFlag="3" MigratedToOperationId="88a2953a-2642-4663-b66a-5cf204636943">
+  <name>Product Rules A</name>
+  <uuid>0289201a-ff9b-4ce5-9e58-4e3e46cb79ff</uuid>
+  <outputLocation>output</outputLocation>
+  <categories>any</categories>
+  <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
+    <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="BOM Base" url="platform:/BOM Base" kind="RULE_PROJECT"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="commons-math3-3.2.jar" url="platform:/Product Rules A/math XOM/commons-math3-3.2.jar"/>
+  </paths>
+  <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
+    <entries xsi:type="ilog.rules.studio.model.bom:ProjectBOMEntry" name="BOM Base" url="platform:/BOM Base" kind="RULE_PROJECT">
+      <ruleProject href="BOM%20Base#6342bbc0-bac8-4a72-a86b-64d0cebc8e1d"/>
+    </entries>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="descriptive stats model" url="platform:/Product Rules A/bom/descriptive stats model.bom" origin="xom:/Product Rules A//Product Rules A/math XOM/commons-math3-3.2.jar"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="descriptive stats util" url="platform:/Product Rules A/bom/descriptive stats util.bom"/>
+  </paths>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
+    <name>rules</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.bom:BOMFolder">
+    <name>bom</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.rule:TemplateFolder">
+    <name>templates</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.query:QueryFolder">
+    <name>queries</name>
+  </modelFolders>
+  <modelFolders xsi:type="com.ibm.rules.studio.model.decisionservice:OperationFolder">
+    <name>deployment</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:ResourceFolder">
+    <name>resources</name>
+  </modelFolders>
+</ilog.rules.studio.model.base:RuleProject>

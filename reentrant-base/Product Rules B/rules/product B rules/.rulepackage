@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>product B rules</name>
+  <uuid>f491f908-f29a-4791-853a-a260b0f99900</uuid>
+</ilog.rules.studio.model.base:RulePackage>

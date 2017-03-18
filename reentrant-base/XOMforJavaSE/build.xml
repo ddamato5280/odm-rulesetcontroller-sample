@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="XOMforJavaSE" basedir="." default="deploy.ruleapp" >
+
+  <property file="build.properties"/>
+  <import file="${executionserver.home}/lib/classpath-executionserver.xml"/>
+  <taskdef resource="res-tasks.properties" >
+    <classpath refid="executionserver.tools.classpath"/>
+  </taskdef>
+  <taskdef resource="res-tasks.properties" >
+	  <classpath refid="executionserver.setup.classpath" />
+  </taskdef>
+
+  <path id="ruleapp.classpath" >
+  	<path refid="executionserver.j2se.classpath"/>
+        <pathelement location="Z:/E/accounts-projects/00_Generic-Projects/reentrant-851-1/Java XOM/bin"/>
+      </path>
+  
+  <target name="usage" description="display the usage" >
+	<echo> 
+	Main targets:
+		build.ruleapp     compile the POJO
+ 		clean.ruleapp     delete the build directory
+ 		deploy.ruleapp    deploy the RuleApp archive
+ 		generate.ra.xml   regenerate the ra.xml file used by the XU
+ 		run.ruleapp       execute the POJO
+ 		undeploy.ruleapp  undeploy the RuleApp archive
+ 		usage             display the usage
+	Default target: deploy.ruleapp
+	</echo>
+  </target>
+	
+  <target name="clean.ruleapp" 
+  		description="delete the build directory" > 
+     <delete dir="${build.dir}" />
+  </target>
+  
+  <target name="build.ruleapp" depends="clean.ruleapp, generate.ra.xml" 
+  		description="compile the POJO" >
+     <mkdir dir="${build.dir}" />
+     <javac srcdir="${src.dir}"
+            destdir="${build.dir}"
+	        debug="${debug.mode}"
+    	    source="1.5" >
+    	<classpath refid="ruleapp.classpath" />
+     </javac>     
+  </target>  	
+
+  <target name="run.ruleapp" depends="build.ruleapp" 
+  		description="execute the POJO" >
+     <java classname="BOMBaseRuleapp.Main" >
+    	<classpath >
+      	   <pathelement location="${build.dir}"/>
+    	   <path refid="ruleapp.classpath" />
+    	</classpath>
+     </java>     
+  </target>
+  
+  <target name="generate.ra.xml"
+  		description="regenerate the ra.xml file used by the XU" >
+        <mkdir dir="${build.dir}" />
+    	<res-setup xuconfiginput="${executionserver.home}/bin/ra.xml" 
+    				xuconfigoutput="${build.dir}/ra.xml" > 
+    			<property name="plugins" value="{pluginClass=com.ibm.rules.dvs.plugin.IlrExecutionTracePlugin}" />
+    			<property name="trace.autoFlush" value="true" />
+    			<property name="trace.level" value="${log.level}" />
+    			<property name="persistence.type" value="file" />
+    			<property name="persistence.file.directory" value="${repository.dir}" />
+				<property name="xom.persistence.type" value="file" />
+				<property name="xom.persistence.file.directory" value="${repository.xom.dir}" />
+		</res-setup>
+  </target>
+  
+
+  <target name="deploy.ruleapp" depends="generate.ra.xml" 
+  		description="deploy the RuleApp archive" >
+	 <res-write-file failonerror="${failonerror}"
+                dir="${repository.dir}" 
+                file="${basedir}/BOMBaseRuleapp.jar"
+                mergingpolicy="${mergingpolicy}" 
+                versioningpolicy="${versioningpolicy}" />
+  </target>
+  
+  <target name="undeploy.ruleapp" 
+  		description="undeploy the RuleApp archive">
+	<res-delete-file failonerror="${failonerror}"
+                        dir="${repository.dir}"
+                        ruleapp="BOMBaseRuleapp"/>
+  </target>
+
+
+
+</project>

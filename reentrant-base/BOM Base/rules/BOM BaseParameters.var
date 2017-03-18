@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>BOM BaseParameters</name>
+  <uuid>5bac036f-d40f-4848-bf0e-a64f7e900df5</uuid>
+  <variables name="borrower" type="miniloan.Borrower" initialValue="" verbalization="the borrower"/>
+  <variables name="coborrower" type="miniloan.Borrower" initialValue="" verbalization="the co-borrower"/>
+  <variables name="loan" type="miniloan.Loan" initialValue="" verbalization="the loan"/>
+  <variables name="request" type="miniloan.RequestAppendix" initialValue="" verbalization="the request appendix"/>
+  <variables name="response" type="miniloan.Response" initialValue="" verbalization="the response"/>
+</ilog.rules.studio.model.base:VariableSet>

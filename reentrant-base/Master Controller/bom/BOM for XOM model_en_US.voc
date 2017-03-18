@@ -1,0 +1,7 @@
+# Vocabulary Properties
+uuid = 2922ea72-6969-48e6-a3ab-05804c1eed98
+
+# BOMBaseRuleapp.XOMforJavaSERunner
+BOMBaseRuleapp.XOMforJavaSERunner#concept.label = XOMfor java SERunner
+BOMBaseRuleapp.XOMforJavaSERunner.executeBOMBase(miniloan.Borrower,miniloan.Borrower,miniloan.Loan,miniloan.RequestAppendix,miniloan.Response,java.lang.String)#phrase.action = execute rules using a borrower of {0}, a co borrower of {1}, a loan of {2}, a request appendix of {3}, and a response of {4} using rules set ID {5} with {this}
+BOMBaseRuleapp.XOMforJavaSERunner.printResponseResult(miniloan.Response)#phrase.action = XOMfor java SERunner.printResponseResult({0})

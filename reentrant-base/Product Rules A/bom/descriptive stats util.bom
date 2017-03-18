@@ -1,0 +1,10 @@
+
+property uuid "61d13a67-5c1f-4224-87fb-160216749566"
+package com.ibm.demo;
+
+
+public class DescriptiveStatsUtil
+{
+    public static void addValue(int anInteger, org.apache.commons.math3.stat.descriptive.DescriptiveStatistics descriptiveStatObject);
+}
+

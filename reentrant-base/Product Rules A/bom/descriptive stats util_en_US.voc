@@ -1,0 +1,6 @@
+# Vocabulary Properties
+uuid = e3249aa2-6a08-4126-9de2-1914417cb767
+
+# com.ibm.demo.DescriptiveStatsUtil
+com.ibm.demo.DescriptiveStatsUtil#concept.label = descriptive stats util
+com.ibm.demo.DescriptiveStatsUtil.addValue(int,org.apache.commons.math3.stat.descriptive.DescriptiveStatistics)#phrase.action = add integer value from {0} to the values of {1}

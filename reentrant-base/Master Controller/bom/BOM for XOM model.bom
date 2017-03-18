@@ -1,0 +1,23 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Master Controller//XOMforJavaSE"
+property uuid "cafa2ed8-f156-44f8-b308-a43462256d1d"
+package BOMBaseRuleapp;
+
+
+public class RulesetChildRunner
+{
+    public RulesetChildRunner();
+    public static ilog.rules.res.session.IlrSessionResponse execute(string arg1, java.util.Map arg2)
+                throws ilog.rules.res.session.IlrSessionException, ilog.rules.res.model.IlrFormatException;
+}
+
+public class XOMforJavaSERunner
+        property automaticVariable "true"
+{
+    public XOMforJavaSERunner();
+    public void executeBOMBase(miniloan.Borrower arg1, miniloan.Borrower arg2, miniloan.Loan arg3, miniloan.RequestAppendix arg4, miniloan.Response arg5, string arg6)
+                throws BOMBaseRuleapp.RulesetExecutionException;
+    public static void printResponseResult(miniloan.Response arg);
+}
+

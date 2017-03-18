@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="Product_Rules_ARuleset" targetRuleProjectName="Product Rules A">
+  <name>Product Rules AOperation</name>
+  <uuid>88a2953a-2642-4663-b66a-5cf204636943</uuid>
+  <referencedVariables variableName="borrower" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="coborrower" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="loan" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="request" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="response" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <targetRuleProject href="../../Product%20Rules%20A#0289201a-ff9b-4ce5-9e58-4e3e46cb79ff"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

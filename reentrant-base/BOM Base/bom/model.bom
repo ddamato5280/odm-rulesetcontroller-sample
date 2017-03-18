@@ -1,0 +1,60 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/BOM Base//Java XOM"
+property uuid "d6396aae-a251-4acc-8f9b-537d89916609"
+package miniloan;
+
+
+public class Borrower
+        property automaticVariable "true"
+{
+    public readonly java.lang.String[] attributes;
+    public string category;
+    public int creditScore;
+    public java.util.Date dateOfBirth;
+    public string name;
+    public int yearlyIncome;
+    public Borrower(string arg1, int arg2, int arg3, java.util.Date arg4);
+    public Borrower();
+    public string getAttribute(string arg);
+    public void setAttribute(string arg1, string arg2);
+}
+
+public class Loan
+{
+    public int amount;
+    public readonly string approvalStatus;
+    public boolean approved;
+    public int duration;
+    public readonly java.util.Collection messages domain 0,* class string;
+    public double yearlyInterestRate;
+    public readonly int yearlyRepayment;
+    public Loan(int arg1, int arg2, double arg3);
+    public Loan();
+    public void addToMessages(string arg);
+    public void reject();
+    public void removeFromMessages(string arg);
+}
+
+public class RequestAppendix
+{
+    public readonly java.util.Vector badBorrowerList domain 0,* class miniloan.Borrower;
+    public readonly java.util.Vector goodBorrowerList domain 0,* class miniloan.Borrower;
+    public RequestAppendix(java.util.Vector goodBorrowers domain 0,* class miniloan.Borrower, 
+        java.util.Vector badBorrowers domain 0,* class miniloan.Borrower)
+                property "dataio.default" "true";
+    public RequestAppendix();
+    public void addBadBorrowerToList(miniloan.Borrower arg);
+    public void addGoodBorrowerToList(miniloan.Borrower arg);
+    public void removeBadBorrowerFromList(miniloan.Borrower arg);
+    public void removeGoodBorrowerFromList(miniloan.Borrower arg);
+}
+
+public class Response
+{
+    public java.util.Vector messages domain 0,* class string;
+    public string status;
+    public Response();
+    public void addMessage(string arg);
+}
+

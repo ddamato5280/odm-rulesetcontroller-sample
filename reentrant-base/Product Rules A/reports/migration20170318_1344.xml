@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<report xmlns="http://schemas.ibm.com/odm/decisionservice/report/1.0" name="Rule Project Migration - Product Rules A">
+  <section name="Migration initialization">
+    <event name="Checking migration prerequisites" severity="information" timestamp="1489859050292"></event>
+    <event name="No major issues detected." severity="information" timestamp="1489859050292"></event>
+    <event name="Collecting migration actions" severity="information" timestamp="1489859050292"></event>
+    <event name="Performing migration actions" severity="information" timestamp="1489859050292"></event>
+    <event name="Suspend workspace auto build" severity="information" timestamp="1489859050292"></event>
+  </section>
+  <section name="Performing migration actions on decision operations for project 'Product Rules A'">
+    <event name="Setting project as standard rule project for decision service" severity="information" timestamp="1489859050292"></event>
+    <event name="Creating decision operation &quot;Product Rules AOperation&quot;" severity="information" timestamp="1489859050292"></event>
+    <event name="Saving element &quot;Product Rules AOperation&quot;" severity="information" timestamp="1489859050292"></event>
+    <event name="Updating project &quot;Product Rules A&quot; to support decision operations" severity="information" timestamp="1489859050292"></event>
+  </section>
+  <section name="Migration done"></section>
+</report>

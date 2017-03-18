@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>base rule</name>
+  <uuid>5925f1ad-8cb0-4c85-9d30-543267834498</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[then
+	print "Product from Category is " + the category of 'the borrower' ;
+	print "Age of borrower still is " + the number of years from the date of birth of 'the borrower' ;
+	execute rules using a borrower of 'the borrower' , a co borrower of 'the co-borrower' , a loan of 'the loan' , 
+		a request appendix of 'the request appendix' , and a response of 'the response' using rules set ID "/ProductRuleApp/ProductRulesA" with the XOMfor java SERunner ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

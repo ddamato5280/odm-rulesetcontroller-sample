@@ -1,0 +1,10 @@
+
+property uuid "de02c32c-dd7b-460d-8387-89cdd0d54372"
+package demo;
+
+
+public class DateTimeHelper
+{
+    public static final int getNumberOfYearsFromDate(java.util.Date date);
+}
+

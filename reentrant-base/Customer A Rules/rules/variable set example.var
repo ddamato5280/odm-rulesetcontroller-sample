@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variable set example</name>
+  <uuid>e1e175d7-ac70-4627-b1d1-f4dfc1669a2a</uuid>
+  <variables name="qualified" type="boolean" initialValue="false" verbalization="qualified"/>
+</ilog.rules.studio.model.base:VariableSet>

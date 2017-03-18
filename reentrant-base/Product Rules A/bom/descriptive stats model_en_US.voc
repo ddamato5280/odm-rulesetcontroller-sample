@@ -1,0 +1,32 @@
+# Vocabulary Properties
+uuid = f1c965f8-f9f2-4b53-ba08-7bd90befa820
+
+# org.apache.commons.math3.analysis.differentiation.DerivativeStructure
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure#concept.label = derivative structure
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure.allDerivatives#phrase.navigation = {all derivative} of {this}
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure.exponent#phrase.navigation = {exponent} of {this}
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure.freeParameters#phrase.navigation = {free parameters} of {this}
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure.order#phrase.navigation = {order} of {this}
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure.real#phrase.navigation = {real} of {this}
+org.apache.commons.math3.analysis.differentiation.DerivativeStructure.value#phrase.navigation = {value} of {this}
+
+# org.apache.commons.math3.stat.descriptive.DescriptiveStatistics
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics#concept.label = descriptive statistics
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.INFINITE_WINDOW#phrase.navigation = the INFINITE WINDOW
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.addValue(double)#phrase.action = add value of {0} to the values of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.geometricMean#phrase.navigation = {geometric mean} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.kurtosis#phrase.navigation = {kurtosis} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.max#phrase.navigation = {max} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.mean#phrase.navigation = {mean} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.min#phrase.navigation = {min} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.n#phrase.navigation = {n} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.populationVariance#phrase.navigation = {population variance} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.skewness#phrase.navigation = {skewness} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.sortedValues#phrase.navigation = {sorted value} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.standardDeviation#phrase.navigation = {standard deviation} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.sum#phrase.navigation = {sum} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.sumsq#phrase.navigation = {sumsq} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.values#phrase.navigation = {value} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.variance#phrase.navigation = {variance} of {this}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.windowSize#phrase.action = set the window size of {this} to {window size}
+org.apache.commons.math3.stat.descriptive.DescriptiveStatistics.windowSize#phrase.navigation = {window size} of {this}

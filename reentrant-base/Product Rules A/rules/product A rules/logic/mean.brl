@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>mean</name>
+  <uuid>cb7a0a9f-5b44-440e-ba0a-90ac548b138b</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the number of elements in the good borrowers of 'the request appendix'  is more than 1
+then
+	add "The math library used to produce the following is from http://commons.apache.org/proper/commons-math/index.html" to the messages of 'the response' ;
+	add "the mean of the customer ages is " + the mean of 'the customer ages'  to the messages of 'the response' ;
+	add "the standard deviation of the customer ages is " + the standard deviation of 'the customer ages' to the messages of 'the response' ;
+	add "the min of the customer ages is " + the min of 'the customer ages' to the messages of 'the response' ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

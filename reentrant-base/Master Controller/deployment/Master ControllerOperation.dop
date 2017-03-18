@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="Master_ControllerRuleset" usingRuleflow="true" ruleflowName="main flow" targetRuleProjectName="Master Controller">
+  <name>Master ControllerOperation</name>
+  <uuid>9df51170-45b6-4969-8d07-1aa384be7405</uuid>
+  <referencedVariables variableName="borrower" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="coborrower" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="loan" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="request" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <referencedVariables variableName="response" variableSetName="BOM BaseParameters" direction="IN_OUT">
+    <variableSet href="../../BOM%20Base/rules/BOM%20BaseParameters.var#5bac036f-d40f-4848-bf0e-a64f7e900df5"/>
+  </referencedVariables>
+  <ruleflow href="../rules/main%20flow.rfl#111efb11-89f6-4d2b-a1a7-c857a114334d"/>
+  <targetRuleProject href="../../Master%20Controller#b036678d-7852-456e-b917-d16d4f6d39e3"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>base rule</name>
+  <uuid>c44630f1-3bc9-4d78-a2de-532eb336156b</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[then
+	print the name of this rule ;
+	add the name of this rule to the messages of 'the response' ;
+	set qualified to true;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

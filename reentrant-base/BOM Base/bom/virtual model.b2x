@@ -1,0 +1,26 @@
+<b2x:translation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.ilog.com/JRules/1.1/Translation ilog/rules/schemas/1_1/b2x.xsd"
+        xmlns:b2x="http://schemas.ilog.com/JRules/1.1/Translation">
+    <id>cee047f5-1c21-47b6-8324-c41ae999fde1</id>
+    <class>
+        <businessName>demo.DateTimeHelper</businessName>
+        <executionName>java.lang.Object</executionName>
+        <method>
+            <name>getNumberOfYearsFromDate</name>
+            <parameter type="java.util.Date"/>
+            <body language="irl"><![CDATA[
+            java.util.Calendar dob = java.util.Calendar.getInstance();  
+dob.setTime(date);  
+java.util.Calendar today = java.util.Calendar.getInstance();  
+int age = today.get(java.util.Calendar.YEAR) - dob.get(java.util.Calendar.YEAR);  
+if (today.get(java.util.Calendar.MONTH) < dob.get(java.util.Calendar.MONTH)) {
+	age--;  
+} else if (today.get(java.util.Calendar.MONTH) == dob.get(java.util.Calendar.MONTH)
+		    && today.get(java.util.Calendar.DAY_OF_MONTH) < dob.get(java.util.Calendar.DAY_OF_MONTH)) {
+	age--;  
+}
+return age;
+            ]]></body>
+        </method>
+    </class>
+</b2x:translation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>base rule</name>
+  <uuid>b3651bbc-821e-4364-8a8a-933e0116b22d</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[then
+	print the name of this rule ;
+	add the name of this rule to the messages of 'the response' ;
+	add the name of 'the borrower' + " is " + the number of years from the date of birth of 'the borrower' + " years old" to the messages of 'the response'  ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

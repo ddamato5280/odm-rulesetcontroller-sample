@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" isADecisionService="true" migrationFlag="3" MigratedToOperationId="9df51170-45b6-4969-8d07-1aa384be7405">
+  <name>Master Controller</name>
+  <uuid>b036678d-7852-456e-b917-d16d4f6d39e3</uuid>
+  <outputLocation>output</outputLocation>
+  <categories>any</categories>
+  <rulesetProperties></rulesetProperties>
+  <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
+    <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY" exported="false"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="BOM Base" url="platform:/BOM Base" kind="RULE_PROJECT" exported="true"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="Customer A Rules" url="platform:/Customer A Rules" kind="RULE_PROJECT" exported="true"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="Customer B Rules" url="platform:/Customer B Rules" kind="RULE_PROJECT" exported="true"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="Customer C Rules" url="platform:/Customer C Rules" kind="RULE_PROJECT" exported="true"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="XOMforJavaSE" url="platform:/XOMforJavaSE" kind="JAVA_PROJECT" exported="true"/>
+  </paths>
+  <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
+    <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY"/>
+  </paths>
+  <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
+    <entries xsi:type="ilog.rules.studio.model.bom:ProjectBOMEntry" name="BOM Base" url="platform:/BOM Base" kind="RULE_PROJECT">
+      <ruleProject href="BOM%20Base#6342bbc0-bac8-4a72-a86b-64d0cebc8e1d"/>
+    </entries>
+    <entries xsi:type="ilog.rules.studio.model.bom:ProjectBOMEntry" name="Customer A Rules" url="platform:/Customer A Rules" kind="RULE_PROJECT">
+      <ruleProject href="Customer%20A%20Rules#6bb08ad5-dac2-4e93-ac62-04c069d4c045"/>
+    </entries>
+    <entries xsi:type="ilog.rules.studio.model.bom:ProjectBOMEntry" name="Customer B Rules" url="platform:/Customer B Rules" kind="RULE_PROJECT">
+      <ruleProject href="Customer%20B%20Rules#20a94fe1-cef9-4bfb-97ee-080844cfa9d7"/>
+    </entries>
+    <entries xsi:type="ilog.rules.studio.model.bom:ProjectBOMEntry" name="Customer C Rules" url="platform:/Customer C Rules" kind="RULE_PROJECT">
+      <ruleProject href="Customer%20C%20Rules#29d18d24-0935-425d-8086-0b1b3cdf2788"/>
+    </entries>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="BOM for XOM model" url="platform:/Master Controller/bom/BOM for XOM model.bom" origin="xom:/Master Controller//XOMforJavaSE"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="BOM for XOM Util" url="platform:/Master Controller/bom/BOM for XOM Util.bom"/>
+  </paths>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
+    <name>rules</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.bom:BOMFolder">
+    <name>bom</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.rule:TemplateFolder">
+    <name>templates</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.query:QueryFolder">
+    <name>queries</name>
+  </modelFolders>
+  <modelFolders xsi:type="com.ibm.rules.studio.model.decisionservice:OperationFolder">
+    <name>deployment</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:ResourceFolder">
+    <name>resources</name>
+  </modelFolders>
+</ilog.rules.studio.model.base:RuleProject>

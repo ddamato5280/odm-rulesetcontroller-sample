@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+  <name value="Java SE configuration for Dynamic RuleSet Inteface ">  </name>
+  <url value="">  </url>
+  <appliurl value="">  </appliurl>
+  <uuid value="_30U7cCSKEeOnZrWxp1QGlA">  </uuid>
+  <application-server>false</application-server>
+  <res-console-deployed>false</res-console-deployed>
+  <type>Other</type>
+  <install-directory>  </install-directory>
+  <deployment-directory>  </deployment-directory>
+  <deployment>
+    <mode>FILE</mode>
+    <fileMode>
+      <destinationDirectory>D:/accounts-projects/MasterCard/v711sample/Dynamic RuleSet Inteface/res_data</destinationDirectory>
+    </fileMode>
+  </deployment>
+</server>

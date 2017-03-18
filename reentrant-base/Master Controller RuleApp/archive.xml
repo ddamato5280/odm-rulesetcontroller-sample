@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleapp-archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.ilog.com/JRules/1.2/RuleAppArchive">
+  <ruleapp>
+    <ruleapp-display-name>Master Controller RuleApp</ruleapp-display-name>
+    <ruleapp-name>MasterControllerRuleApp</ruleapp-name>
+    <ruleapp-version>1.0</ruleapp-version>
+    <creation-date>1377295119884</creation-date>
+    <ruleset>
+      <ruleset-display-name>BOM Base</ruleset-display-name>
+      <ruleset-name>BOMBase</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295121378</creation-date>
+    </ruleset>
+    <ruleset>
+      <ruleset-display-name>Master Controller</ruleset-display-name>
+      <ruleset-name>MasterController</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295121900</creation-date>
+    </ruleset>
+    <ruleset>
+      <ruleset-display-name>Customer C Rules</ruleset-display-name>
+      <ruleset-name>CustomerCRules</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295121715</creation-date>
+    </ruleset>
+    <ruleset>
+      <ruleset-display-name>Product Rules A</ruleset-display-name>
+      <ruleset-name>ProductRulesA</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295121978</creation-date>
+    </ruleset>
+    <ruleset>
+      <ruleset-display-name>Customer B Rules</ruleset-display-name>
+      <ruleset-name>CustomerBRules</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295121584</creation-date>
+    </ruleset>
+    <ruleset>
+      <ruleset-display-name>Product Rules B</ruleset-display-name>
+      <ruleset-name>ProductRulesB</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295122130</creation-date>
+    </ruleset>
+    <ruleset>
+      <ruleset-display-name>Customer A Rules</ruleset-display-name>
+      <ruleset-name>CustomerARules</ruleset-name>
+      <ruleset-version>1.0</ruleset-version>
+      <creation-date>1377295121497</creation-date>
+    </ruleset>
+  </ruleapp>
+</ruleapp-archive>

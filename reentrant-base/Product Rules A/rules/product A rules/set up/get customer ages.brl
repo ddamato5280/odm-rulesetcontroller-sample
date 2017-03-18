@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>get customer ages</name>
+  <uuid>6f7f662d-37cd-4ebf-a8af-328a8dfd0ef6</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[
+then
+	for each borrower  in the good borrowers of 'the request appendix'  : 
+	- add "adding " + the name of this borrower + " age of " + the number of years from the date of birth of this borrower  + " to customer ages." to the messages of 'the response' 
+	- add integer value from the number of years from the date of birth of this borrower to the values of 'the customer ages' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

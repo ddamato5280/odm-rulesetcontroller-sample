@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="ilog.rules.studio.dvs.dvsExcelFile.launchConfiguration">
+<stringAttribute key="ilog.rules.studio.dvs.DEST_FILE" value="/Master Controller/report.html"/>
+<stringAttribute key="ilog.rules.studio.dvs.DVS_CONFIGURATION_FILE_NAME" value=""/>
+<stringAttribute key="ilog.rules.studio.dvs.DVS_PROJECT_NAME" value=""/>
+<stringAttribute key="ilog.rules.studio.dvs.EXCEL_FILE" value="/Master Controller/MC with XOM for J2SE RE.xlsx"/>
+<stringAttribute key="ilog.rules.studio.dvs.EXTRACTOR" value=""/>
+<booleanAttribute key="ilog.rules.studio.dvs.LOCAL_EXECUTION" value="true"/>
+<stringAttribute key="ilog.rules.studio.dvs.RULE_PROJECT" value="Master Controller"/>
+<stringAttribute key="ilog.rules.studio.dvs.SERVER_URL" value=""/>
+<booleanAttribute key="ilog.rules.studio.dvs.USE_DEPLOYED_XOM" value="true"/>
+<booleanAttribute key="ilog.rules.studio.dvs.USE_EXTRACTOR" value="false"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Master Controller"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;com.ibm.rules.studio.DVS_CONTAINER&quot; path=&quot;3&quot; type=&quot;4&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;XOMforJavaSE&quot; type=&quot;1&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/jrules-res-execution.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/asm-util-3.1.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/asm-tree-3.1.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/j2ee_connector-1_5-fr.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/mina-core-2.0.1-IBM.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/slf4j-simple-1.5.8.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/asm-3.1.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/jdom-1.1.2.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/bcel-5.1.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry internalArchive=&quot;/XOMforJavaSE/classes&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/jrules-engine.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/asm-analysis-3.1.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/slf4j-api-1.5.8.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;ILOG_EXECUTION_SERVER_HOME/lib/asm-commons-3.1.jar&quot; path=&quot;3&quot; type=&quot;3&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry path=&quot;3&quot; projectName=&quot;Java XOM&quot; type=&quot;1&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry internalArchive=&quot;/Product Rules A/math XOM/commons-math3-3.2.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="com.ibm.rules.studio.dvs.ui.dvsClasspathProviderId"/>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+</launchConfiguration>

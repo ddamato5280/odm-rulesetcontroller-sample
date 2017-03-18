@@ -1,0 +1,172 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Product Rules A//Product Rules A/math XOM/commons-math3-3.2.jar"
+property uuid "eab2090a-42a0-462a-abcb-7d2aa5161e70"
+package org.apache.commons.math3.analysis.differentiation;
+
+
+public class DerivativeStructure
+        extends org.apache.commons.math3.RealFieldElement, java.io.Serializable
+{
+    public readonly double[] allDerivatives;
+    public readonly int exponent;
+    public readonly org.apache.commons.math3.Field field;
+    public readonly int freeParameters;
+    public readonly int order;
+    public readonly double real;
+    public readonly double value;
+    public DerivativeStructure(int arg1, int arg2)
+                throws org.apache.commons.math3.exception.NumberIsTooLargeException;
+    public DerivativeStructure(int arg1, int arg2, double arg3)
+                throws org.apache.commons.math3.exception.NumberIsTooLargeException;
+    public DerivativeStructure(int arg1, int arg2, double[] arg3)
+                throws org.apache.commons.math3.exception.DimensionMismatchException, org.apache.commons.math3.exception.NumberIsTooLargeException;
+    public DerivativeStructure(double arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, double arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public DerivativeStructure(int arg1, int arg2, int arg3, double arg4)
+                throws org.apache.commons.math3.exception.NumberIsTooLargeException;
+    public DerivativeStructure(double arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, double arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4, double arg5, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg6)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public DerivativeStructure(double arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, double arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4, double arg5, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg6, double arg7, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg8)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure abs();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure acos();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure acosh();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure add(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure add(double arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure asin();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure asinh();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure atan();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure atan2(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public static org.apache.commons.math3.analysis.differentiation.DerivativeStructure atan2(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure atanh();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure cbrt();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure ceil();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure compose(double[] arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure copySign(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure copySign(double arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure cos();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure cosh();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure divide(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure divide(double arg);
+    public boolean equals(object arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure exp();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure expm1();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure floor();
+    public double getPartialDerivative(int[] arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException, org.apache.commons.math3.exception.NumberIsTooLargeException;
+    public int hashCode();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure hypot(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public static org.apache.commons.math3.analysis.differentiation.DerivativeStructure hypot(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(double[] arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure[] arg2)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(org.apache.commons.math3.analysis.differentiation.DerivativeStructure[] arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure[] arg2)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(double arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, double arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg5, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg6)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(double arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, double arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4, double arg5, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg6)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg5, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg6, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg7, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg8)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure linearCombination(double arg1, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg2, double arg3, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg4, double arg5, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg6, double arg7, org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg8)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure log();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure log10();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure log1p();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure multiply(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure multiply(double arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure multiply(int arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure negate();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure pow(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure pow(double arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure pow(int arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure reciprocal();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure remainder(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure remainder(double arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure rint();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure rootN(int arg);
+    public long round();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure scalb(int arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure signum();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure sin();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure sinh();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure sqrt();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure subtract(org.apache.commons.math3.analysis.differentiation.DerivativeStructure arg)
+                throws org.apache.commons.math3.exception.DimensionMismatchException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure subtract(double arg);
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure tan();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure tanh();
+    public double taylor(double[] arg)
+                throws org.apache.commons.math3.exception.MathArithmeticException;
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure toDegrees();
+    public org.apache.commons.math3.analysis.differentiation.DerivativeStructure toRadians();
+}
+
+package org.apache.commons.math3.stat.descriptive;
+
+
+public class DescriptiveStatistics
+        extends org.apache.commons.math3.stat.descriptive.StatisticalSummary, java.io.Serializable
+{
+    public static final readonly int INFINITE_WINDOW;
+    public readonly double geometricMean;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic geometricMeanImpl;
+    public readonly double kurtosis;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic kurtosisImpl;
+    public readonly double max;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic maxImpl;
+    public readonly double mean;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic meanImpl;
+    public readonly double min;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic minImpl;
+    public readonly long n;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic percentileImpl;
+    public readonly double populationVariance;
+    public readonly double skewness;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic skewnessImpl;
+    public readonly double[] sortedValues;
+    public readonly double standardDeviation;
+    public readonly double sum;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic sumImpl;
+    public readonly double sumsq;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic sumsqImpl;
+    public readonly double[] values;
+    public readonly double variance;
+    public org.apache.commons.math3.stat.descriptive.UnivariateStatistic varianceImpl;
+    public int windowSize;
+    public DescriptiveStatistics(org.apache.commons.math3.stat.descriptive.DescriptiveStatistics arg)
+                throws org.apache.commons.math3.exception.NullArgumentException;
+    public DescriptiveStatistics(double[] arg);
+    public DescriptiveStatistics(int arg)
+                throws org.apache.commons.math3.exception.MathIllegalArgumentException;
+    public DescriptiveStatistics();
+    public void addValue(double arg);
+    public double apply(org.apache.commons.math3.stat.descriptive.UnivariateStatistic arg);
+    public void clear();
+    public static void copy(org.apache.commons.math3.stat.descriptive.DescriptiveStatistics arg1, org.apache.commons.math3.stat.descriptive.DescriptiveStatistics arg2)
+                throws org.apache.commons.math3.exception.NullArgumentException;
+    public org.apache.commons.math3.stat.descriptive.DescriptiveStatistics copy();
+    public double getElement(int arg);
+    public double getPercentile(double arg)
+                throws org.apache.commons.math3.exception.MathIllegalStateException, org.apache.commons.math3.exception.MathIllegalArgumentException;
+    public void removeMostRecentValue()
+                throws org.apache.commons.math3.exception.MathIllegalStateException;
+    public double replaceMostRecentValue(double arg)
+                throws org.apache.commons.math3.exception.MathIllegalStateException;
+    public string toString();
+}
+
